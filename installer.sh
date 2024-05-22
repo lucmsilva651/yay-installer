@@ -6,7 +6,7 @@ normal=$(tput sgr0)
 
 clear
 cat branding.txt
-echo -e "${bold}yay-installer${normal} - permit sudo to continue \n"
+echo -e "${bold}yay-installer${normal} - allow sudo to continue \n"
 sudo pacman -S --noconfirm git base-devel
 rm -rf yay-bin
 git clone https://aur.archlinux.org/yay-bin.git
